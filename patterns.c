@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<cs50.h>
 
-
 int main(void){
   int p= get_int("Enter type of pattern (1 or 2)");
   if(p==1){
@@ -10,7 +9,6 @@ int main(void){
     for(int j=1; j<=i; j++){
        printf("#");
      }
-    
    printf("\n");
   }
   
