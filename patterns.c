@@ -8,8 +8,8 @@ int main(void)
     int n = get_int("Number of rows");
     if (p == 1) {
         while (n != 0) {
-           for (int i = 0; i < n; i++) {
-              printf("#");
+            for (int i = 0; i < n; i++) {
+                printf("#");
             }
             printf("\n");
             n--;
@@ -17,8 +17,8 @@ int main(void)
  }
 
   else if(p==2){
-  for(int i=0; i<=n; i++){
-    for(int j=1; j<=n-i; j++){
+  for(int i=1; i<=n; i++){
+    for(int j=0; j<=n-i; j++){
        printf(" ");
      }
     for(int k=1; k<=i;k++){
